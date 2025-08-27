@@ -15,7 +15,28 @@ The system is designed to be extendable, maintainable, and developer-friendly, a
 - 📝 **Built-in admin panel** for content and user management
 - 📚 **Auto-generated API documentation** via [Scribe](https://scribe.knuckles.wtf/laravel/)
 
----
+## ✨ How to install locally
+
+1. Install and run `composer` via Docker: 
+   ```bash 
+    docker run --rm -u "$(id -u):$(id -g)" -v "$(pwd):/var/www/html" -v ~/.ssh:/home/index/.ssh -w /var/www/html $(docker build --no-cache --build-arg uid=$(id -u) --build-arg gid=$(id -g) -q .) /usr/bin/composer install --ignore-platform-reqs
+   ```
+2. Setup alias for `Laravel Sail`:
+   ```bash 
+    alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+   ```
+3. Up containers:
+   ```bash
+    ./vendor/bin/sail up -d
+   ```
+4. Install frontend dependencies:
+   ```bash
+    sail npm i
+   ```
+5. Run dev server for `hot-reload`:
+   ```bash 
+    sail npm run dev
+   ```
 
 ## ✨ Example
 
