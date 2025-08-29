@@ -3,7 +3,9 @@
 A modular **Content Management System** built on **Laravel** using the [`nwidart/laravel-modules`](https://github.com/nWidart/laravel-modules) package.  
 The system is designed to be extendable, maintainable, and developer-friendly, allowing you to build custom modules quickly.
 
----
+## Preview
+<img width="1440" height="755" alt="v-cms-1" src="https://github.com/user-attachments/assets/86c851c6-c530-4d0d-ad89-8953a1692978" />
+<img width="1439" height="753" alt="v-cms-2" src="https://github.com/user-attachments/assets/6d3fcaf0-c47d-40db-9949-8249f143b288" />
 
 ## ✨ Features
 
