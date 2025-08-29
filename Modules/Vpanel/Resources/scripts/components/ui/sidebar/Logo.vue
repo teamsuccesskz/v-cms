@@ -1,6 +1,6 @@
 <template>
   <RouterLink :to="{name: 'dashboard'}" class="flex items-center">
-    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">index.CMS</span>
+    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">V-CMS</span>
   </RouterLink>
 </template>
 
